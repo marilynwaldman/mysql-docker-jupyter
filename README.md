@@ -32,7 +32,7 @@ It will spin the MySQL latest version, expose port to host at 3306 and ready con
 To shutdown database without remove the container.
 
 ```
-docker-compose stop
+sudo docker-compose stop
 ```
 
 To shutdown database and remove the container.
