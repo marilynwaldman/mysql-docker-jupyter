@@ -1,6 +1,16 @@
 # docker-compose-mysql-with-adminer
 Local MySQL = Docker + Docker Compose + MySQL Docker image + Adminer Docker image
 
+taken from this tutorial:
+
+https://medium.com/@tattwei46/how-to-use-python-with-mysql-79304bee8753
+
+# Clone this repo on your ec2 instance
+
+```aidl
+git clone https://github.com/marilynwaldman/mysql-docker-jupyter.git
+```
+
 ## Usage (start server)
 
 On folder that contains `docker-compose.yml` type one of this.
@@ -35,18 +45,18 @@ Is data that already created will gone? No, since in the Docker Compose file you
 ## MySQL credential
 
 - Username: root
-- Password: rootpassword
+- Password: telluride
 
 ## How to connect to MySQL
 
 ### Via Adminer
-Go to http://localhost:8080
+Go to http://ec2 ....:8080
 
 ### Via command line
 Make sure you have MySQL client installed and `mysql` command in CLI available.
 
 ```
-mysql -uroot -prootpassword -h 127.0.0.1
+mysql -uroot -ptelluride -h 127.0.0.1
 ```
 
 or
