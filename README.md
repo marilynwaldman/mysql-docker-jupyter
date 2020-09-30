@@ -11,6 +11,12 @@ https://medium.com/@tattwei46/how-to-use-python-with-mysql-79304bee8753
 sudo snap install docker
 ```
 
+# Start you jupyter notebook
+
+```aidl
+jupyter notebook
+```
+
 # Clone this repo on your ec2 instance
 
 ```aidl
