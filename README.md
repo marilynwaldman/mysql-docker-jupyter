@@ -5,6 +5,12 @@ taken from this tutorial:
 
 https://medium.com/@tattwei46/how-to-use-python-with-mysql-79304bee8753
 
+# Install docker if it is not installed
+
+```aidl
+sudo snap install docker
+```
+
 # Clone this repo on your ec2 instance
 
 ```aidl
