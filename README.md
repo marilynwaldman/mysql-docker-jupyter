@@ -17,12 +17,12 @@ On folder that contains `docker-compose.yml` type one of this.
 
 ```
 // non detach mode
-docker-compose up
+sudo docker-compose up
 ```
 or
 ```
 // detach mode
-docker-compose up -d
+sudo docker-compose up -d
 ```
 
 It will spin the MySQL latest version, expose port to host at 3306 and ready connection via Adminer or `mysql` CLI command.
@@ -37,7 +37,7 @@ docker-compose stop
 
 To shutdown database and remove the container.
 ```
-docker-compose down
+sudo docker-compose down
 ```
 
 Is data that already created will gone? No, since in the Docker Compose file you can see that we utilize data container named `mysql_db_data_container` to store the MySQL data.
